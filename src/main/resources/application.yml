@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/taskapi
+    username: postgres
+    password: kaiky2102
+  jpa:
+    hibernate:
+      ddl-auto: update
